@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    padding-top: 145px ;
+    padding-bottom: 35px;
+    
+    font-size: 32px;
+    text-align: center;
+}
+
+.document {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.doccument p{
+    line-height: 2;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+font{
+    color: #f3a300;
+    font-weight: bold;
+}
+.document2{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.document2 p{
+    line-height: 2;
+    font-weight: bold;
+    font-size: 16px;
+}
+.images{
+    width: 998px;
+    height: 335px;
+    
+    
+    display: block;
+}
+
+.document3 p{
+   
+    line-height: 2;
+    font-weight: bold;
+    font-size: 14px;
+}
+.document3 {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 25px;
+}
+.document3 a{
+    color: green;
+}
+    
+footer{
+    text-align: center;
+    background-color: #fdf1d9;
+}
+
+footer a{
+    color: green;
+}
+.footer1{
+    padding: 30px 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.footer2{
+    padding-bottom: 50px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+@media only screen and (max-width: 748px){
+    h1{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .images{
+        width: 745px;
+    }
+    .document p{
+        font-size: 20px;
+       
+    }
+    .doccument1 p{
+        font-size: 20px;
+    }
+    .document2 p{
+        font-size: 20px;
+    }
+    
+    
+}
